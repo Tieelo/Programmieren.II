@@ -1,4 +1,4 @@
-package ProgrammierungII.Generics.Container;
+package Generics.Container;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ProgrammierungII.Generics.Container;
+package FunktionaleProgrammierung.LambdaAusdruecke;
 
 import java.util.ArrayList;
 import java.util.Arrays;

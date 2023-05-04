@@ -1,4 +1,4 @@
-package ProgrammierungII.Generics.Container;
+package Generics.Container;
 
 import java.util.HashSet;
 import java.util.Set;

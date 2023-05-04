@@ -1,4 +1,4 @@
-package streams;
+package FunktionaleProgrammierung.Streams;
 
 public class Artikel {
 	private int id;
