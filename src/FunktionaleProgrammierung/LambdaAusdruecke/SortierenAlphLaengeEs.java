@@ -1,4 +1,4 @@
-package ProgrammierungII.functionalProgramming.lambdaExpressions;
+package FunktionaleProgrammierung.LambdaAusdruecke;
 
 import java.util.Arrays;
 import java.util.Comparator;

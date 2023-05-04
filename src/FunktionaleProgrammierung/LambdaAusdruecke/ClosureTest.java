@@ -1,4 +1,4 @@
-package lambdaExpressions;
+package FunktionaleProgrammierung.LambdaAusdruecke;
 
 import java.util.ArrayList;
 import java.util.List;

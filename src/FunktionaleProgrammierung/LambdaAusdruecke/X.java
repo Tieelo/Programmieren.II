@@ -1,4 +1,4 @@
-package ProgrammierungII.functionalProgramming;
+package FunktionaleProgrammierung.LambdaAusdruecke;
 
 @FunctionalInterface
 public interface X {
