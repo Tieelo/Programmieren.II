@@ -1,4 +1,4 @@
-package streams;
+package FunktionaleProgrammierung.Streams;
 
 import java.util.ArrayList;
 import java.util.List;
