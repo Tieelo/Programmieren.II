@@ -28,7 +28,7 @@ public class Termin {
         return zeit;
     }
 
-    public static void printTermine(Termin[] termine, Predicate<Termin> kriterium) {
+    public static void printTermine(Termin[] termine, Predicate <Termin> kriterium) {
         for (Termin termin : termine) {
             if (kriterium.test(termin)) {
                 System.out.println(termin.getBeschreibung() + ", " + termin.getOrt() + ", " + termin.getZeit());
@@ -44,10 +44,9 @@ public class Termin {
                 new Termin("Movie", "Cinema", LocalDateTime.of(2023, 1, 1, 20, 0))
         };
 
-        // Sort the array of Termin objects by the Zeit attribute using a lambda expression
-        Arrays.sort(termine, Comparator.comparing(Termin::getZeit));
+        //Arrays.sort(termine, Comparator.comparing(Termin::getZeit));
+        Arrays.sort(termine,(t1, t2) -> t1.getZeit().compareTo(t2.getZeit()));
 
-        // Print all Termin objects that have a Zeit in the evening (after 5pm)
         printTermine(termine, termin -> termin.getZeit().getHour() >= 17);
     }
 }

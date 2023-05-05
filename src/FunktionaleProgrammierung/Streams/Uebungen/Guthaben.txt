@@ -1,0 +1,47 @@
+package FunktionaleProgrammierung.Streams.Uebungen;
+
+/*      Eine Reihe von Guthaben soll verzinst werden.
+
+        Um ein Array von Zahlen (hier „Guthaben“) als Liste zu erzeugen, verwenden Sie die java.util.Arrays-Methode
+        static <T> List<T> asList(T... a)
+        Ermitteln Sie die Guthaben nach Verzinsung und geben Sie diese der Reihe nach aus.
+        Lösen Sie das Problem zunächst traditionell und dann mit Hilfe der Stream-Methoden map und forEach.
+        Modifizieren Sie die Lösung zur vorigen Aufgabe, um als Ergebnis die Summe der verzinsten Guthaben zu erhalten.
+        Lösen Sie das Problem zunächst traditionell und dann mit Hilfe der Stream-Methoden map und reduce.*/
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Guthaben {
+
+        public static void main(String[] args) {
+            // Guthaben als Array initialisieren
+            double[] guthaben = {1000.0, 2000.0, 3000.0, 4000.0, 5000.0};
+
+            // Traditionelle Lösung zur Verzinsung der Guthaben und Ausgabe der verzinsten Guthaben
+            for (int i = 0; i < guthaben.length; i++) {
+                guthaben[i] = guthaben[i] * 1.05;
+                System.out.println(String.format("%.2f", guthaben[i]));
+            }
+
+            // Stream-Lösung zur Verzinsung der Guthaben und Ausgabe der verzinsten Guthaben
+            List<double[]> guthabenList = List.of(guthaben);
+            guthabenList.stream()
+                    .map(g -> g * 1.05)
+                    .forEach(g -> System.out.printf("%.2f%n", g));
+
+            // Traditionelle Lösung zur Berechnung der Summe der verzinsten Guthaben
+            double sum = 0.0;
+            for (int i = 0; i < guthaben.length; i++) {
+                guthaben[i] = guthaben[i] * 1.05;
+                sum += guthaben[i];
+            }
+            System.out.printf("Summe der verzinsten Guthaben: %.2f%n", sum);
+
+            // Stream-Lösung zur Berechnung der Summe der verzinsten Guthaben
+            guthabenList.stream()
+                    .map(g -> g * 1.05)
+                    .reduce(Double::sum)
+                    .ifPresent(summe -> System.out.printf("Summe der verzinsten Guthaben: %.2f%n", summe));
+        }
+    }
