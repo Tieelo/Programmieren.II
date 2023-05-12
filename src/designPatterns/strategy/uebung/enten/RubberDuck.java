@@ -1,4 +1,6 @@
-package designPatterns.strategy.uebung;
+package designPatterns.strategy.uebung.enten;
+
+import designPatterns.strategy.uebung.Duck;
 
 public class RubberDuck extends Duck {
 

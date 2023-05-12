@@ -1,4 +1,4 @@
-package ProgrammierungII.designPatterns.strategy.duckSimStart;
+package designPatterns.strategy.duckSimStart;
 
 public abstract class Duck {
 	
