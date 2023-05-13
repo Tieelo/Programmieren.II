@@ -19,14 +19,8 @@ public abstract class Duck implements Quackable, Flyable {
 	public void makeNoise(){
 		q.quack();
 	}
-
-
 	public void swim() {
 		System.out.println("Swimming");
-	}
-
-	public void fly() {
-		System.out.println("Flying");
 	}
 
 	public abstract void display();

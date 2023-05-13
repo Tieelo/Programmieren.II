@@ -9,4 +9,13 @@ public class MallardDuck extends Duck {
 		System.out.println("I am a Mallard duck.");
 	}
 
+	@Override
+	public void quack() {
+
+	}
+
+	@Override
+	public void fly() {
+
+	}
 }
