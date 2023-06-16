@@ -1,4 +1,4 @@
-package designPatterns.decorator.refactoring1_live;
+package ProgrammierungII.designPatterns.decorator.refactoring1_live;
 
 public class Sahne implements Zutat {
     private double preis = 0.420;

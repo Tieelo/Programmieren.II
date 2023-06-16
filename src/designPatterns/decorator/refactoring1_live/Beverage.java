@@ -1,4 +1,4 @@
-package designPatterns.decorator.refactoring1_live;
+package ProgrammierungII.designPatterns.decorator.refactoring1_live;
 
 import java.util.ArrayList;
 import java.util.List;
