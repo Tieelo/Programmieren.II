@@ -1,4 +1,4 @@
-package ProgrammierungII.designPatterns.decorator.refactoring1_live;
+package designPatterns.decorator.refactoring1_live;
 
 public interface Zutat {
     double getPreis();

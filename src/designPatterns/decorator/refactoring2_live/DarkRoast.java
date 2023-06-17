@@ -1,4 +1,4 @@
-package ProgrammierungII.designPatterns.decorator.refactoring2_live;
+package designPatterns.decorator.refactoring2_live;
 
 public class DarkRoast extends Beverage {
 	public DarkRoast() {

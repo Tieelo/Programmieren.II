@@ -1,4 +1,4 @@
-package ProgrammierungII.functionalProgramming;
+package designPatterns.observer;
 
 import java.awt.*;
 import java.awt.event.*;
