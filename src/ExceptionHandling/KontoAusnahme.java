@@ -1,6 +1,6 @@
 package ExceptionHandling;
 
-public class KontoAusnahme extends Exception {
+public class KontoAusnahme extends RuntimeException {
 
 	public KontoAusnahme() {
 	}

@@ -7,7 +7,7 @@ public class DivideByInput {
         try {
         Scanner input = new Scanner(System.in);
         System.out.print("Input divisor: ");
-        int divisor = input.nextInt();
+        double divisor = input.nextInt();
         input.close();
         System.out.println(100/divisor);
         }
