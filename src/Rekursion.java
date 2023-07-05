@@ -1,4 +1,3 @@
-package Uebungen;
 import java.math.BigInteger;
 import java.util.Objects;
 
