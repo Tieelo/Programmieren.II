@@ -3,7 +3,9 @@ package designPatterns.strategy.uebung;
 import designPatterns.strategy.uebung.enten.MallardDuck;
 import designPatterns.strategy.uebung.enten.RubberDuck;
 import designPatterns.strategy.uebung.fly.fly;
+import designPatterns.strategy.uebung.fly.noFly;
 import designPatterns.strategy.uebung.quack.Quacken;
+import designPatterns.strategy.uebung.quack.Quitschen;
 
 public class DuckTest {
 
