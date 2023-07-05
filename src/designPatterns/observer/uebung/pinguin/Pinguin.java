@@ -9,9 +9,7 @@ public class Pinguin implements Subjekt{
     @Override
     public void registerObserver(Beobachter beobachter) {
         this.beobachterList.add(beobachter);
-
     }
-
     @Override
     public void removeObserver(Beobachter beobachter) {
         this.beobachterList.remove(beobachter);

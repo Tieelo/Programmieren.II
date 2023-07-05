@@ -1,4 +1,0 @@
-lineA
-line2
-line2-sub1
-line-c
