@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/ExceptionHandling/FinallyTest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/FunktionaleProgrammierung/LambdaAusdruecke/Uebung/Komparator.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/FunktionaleProgrammierung/Streams/StreamTest.txt" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/SchwimmbadPreise.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/Observer.java" charset="UTF-8" />

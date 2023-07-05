@@ -19,9 +19,11 @@ public class DuckTest {
 
 
 		Duck rubberDuck = new RubberDuck();
-		rubberDuck.quack();
+		rubberDuck.setQ(new Quitschen());
+		rubberDuck.setF(new noFly());
 		rubberDuck.display();
-		rubberDuck.fly();
+		rubberDuck.canFly();
+		rubberDuck.makeNoise();
 	}
 
 }
