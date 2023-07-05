@@ -6,10 +6,16 @@
     <file url="file://$PROJECT_DIR$/src/FunktionaleProgrammierung/Streams/StreamTest.txt" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/SchwimmbadPreise.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/Observer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/Observer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/Subject.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/Subject.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/WeatherClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/WeatherClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/WeatherData.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/WeatherData.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/WeatherStation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/WeatherStation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/main.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/designPatterns/observer/uebung/TemperatureObserver/main.java" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1252" />
   </component>

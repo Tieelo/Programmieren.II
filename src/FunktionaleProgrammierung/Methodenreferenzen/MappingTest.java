@@ -4,8 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
+/**
+ * The MappingTest class provides a method for mapping elements of a list to another type using a provided function.
+ */
+
 public class MappingTest {
-    public static <T, R> List<R> mappingMethod(List<T> list, Function<T, R> function) {
+
+	public static <T, R> List<R> mappingMethod(List<T> list, Function<T, R> function) {
 		List<R> result = new ArrayList<>();
 
 		for (T item : list) {

@@ -13,4 +13,9 @@ public class MallardDuck extends Duck {
 	public void quack() {
 
 	}
+
+	@Override
+	public void fly() {
+
+	}
 }

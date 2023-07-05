@@ -21,7 +21,8 @@ public class FilterTestStreamBug {
 
         // Was fällt beim Ergebnis auf? Wo liegt der Fehler?
 		System.out.println("Gefiltert: ");
-		list.forEach(System.out::println);
+		//list.forEach(System.out::println); //nimmt die Originale Liste, da Stream die liste nicht verändert
+		list.stream().filter(kriterium).forEach(System.out::println);
 	}
 
 }

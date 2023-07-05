@@ -16,13 +16,15 @@ public class SortAndDistinctDemo {
 
         List<Integer> numbers = rand.ints(10, 0, 100)
                 .boxed()
-                .toList();
-
-        List<Integer> sortedDistinctNumbers = numbers.stream()
                 .sorted()
                 .distinct()
                 .toList();
 
-        System.out.println("Sorted and distinct numbers: " + sortedDistinctNumbers);
+        /*List<Integer> sortedDistinctNumbers = numbers.stream()
+                .sorted()
+                .distinct()
+                .toList();*/
+
+        System.out.println("Sorted and distinct numbers: " + numbers);
     }
 }

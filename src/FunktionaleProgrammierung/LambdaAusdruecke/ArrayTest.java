@@ -14,7 +14,7 @@ public class ArrayTest {
 	}
 
 	public static void main(String[] args) {
-		// sich die Argumente fuer fold (und deren Reihenfolge) klar machen:
+		// sich die Argumente fuer fold (und deren Reihenfolge) klarmachen:
 		String s = fold((s1, s2) -> s1 + s2, "", "a", "b", "c");
 		System.out.println(s);
 

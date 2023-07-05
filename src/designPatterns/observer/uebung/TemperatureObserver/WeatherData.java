@@ -8,33 +8,33 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 
-import java.util.Observer;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class WeatherData implements Subject{
     private Map<String, Double> temperatureMap;
     private Map<String, Double> humidityMap;
     private Map<String, Double> pressureMap;
-    private List<java.util.Observer> observerList;
+    private List<Observer> observerList;
     public WeatherData(){
         temperatureMap = new HashMap<>();
         humidityMap = new HashMap<>();
         pressureMap = new HashMap<>();
         observerList = new ArrayList<>();
     }
-
     @Override
-    public void registerObserver(java.util.Observer observer) {
+    public void registerObserver(Observer observer) {
         observerList.add(observer);
     }
     @Override
-    public void removeObserver(java.util.Observer observer) {
+    public void removeObserver(Observer observer) {
         observerList.remove(observer);
     }
-
     @Override
     public void notifyObservers() throws Exception {
-        for (java.util.Observer observer : observerList) {
+        for (Observer observer : observerList) {
             observer.update();
         }
     }
@@ -43,24 +43,17 @@ public class WeatherData implements Subject{
     }
     public void setTemperature(String city, double temperature) throws Exception {
         temperatureMap.put(city, temperature);
-
     }
     public double getHumidity(String city) {
         return humidityMap.getOrDefault(city, 0.0);
     }
-
+    public void setHumidity(String city, double humidity) {humidityMap.put(city, humidity);}
     public double getPressure(String city) {
         return pressureMap.getOrDefault(city, 0.0);
     }
-
-    public void setHumidity(String city, double humidity) {
-        humidityMap.put(city, humidity);
-    }
-
     public void setPressure(String city, double pressure) {
         pressureMap.put(city, pressure);
     }
-
     public void fetchTemperatureFromAPI(String apiKey) throws Exception {
         for (Observer observer : observerList) {
             String city = ((WeatherClient) observer).getCity(); //Downcasting, da methode nicht im Interface angelegt ist

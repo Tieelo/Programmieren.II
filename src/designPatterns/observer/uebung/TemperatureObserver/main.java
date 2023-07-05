@@ -8,7 +8,7 @@ public class main {
 
         WeatherClient Mirco = new WeatherClient(weatherData, "Mirco", "Bonn");
         WeatherClient Martin = new WeatherClient(weatherData, "Martin", "London");
-        WeatherClient Phillip = new WeatherClient(weatherData, "Phillip", "Köln");
+        WeatherClient Phillip = new WeatherClient(weatherData, "Phillip", "Koeln");
         while (true) {
 
             weatherData.fetchTemperatureFromAPI(apiKey);

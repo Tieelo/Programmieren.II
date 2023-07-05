@@ -14,4 +14,9 @@ public class RedheadDuck extends Duck {
 	public void quack() {
 
 	}
+
+	@Override
+	public void fly() {
+
+	}
 }

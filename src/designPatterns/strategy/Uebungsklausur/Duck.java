@@ -1,6 +1,6 @@
 package designPatterns.strategy.Uebungsklausur;
 
-public abstract class Duck{
+public abstract class Duck implements Flugverhalten{
 
     static Flugverhalten flugverhalten;
 

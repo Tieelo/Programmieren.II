@@ -46,7 +46,9 @@ public class Termin {
 
         //Arrays.sort(termine, Comparator.comparing(Termin::getZeit));
         Arrays.sort(termine,(t1, t2) -> t1.getZeit().compareTo(t2.getZeit()));
-
+        System.out.println(Arrays.toString(termine));
         printTermine(termine, termin -> termin.getZeit().getHour() >= 17);
+        printTermine(termine, termin -> true);
     }
 }
+

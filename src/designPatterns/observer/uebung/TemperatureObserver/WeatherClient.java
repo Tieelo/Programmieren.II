@@ -9,7 +9,6 @@ public class WeatherClient implements Observer{
     public void setCity(String city) {
         this.city = city;
     }
-
     public WeatherClient(WeatherData Weather, String name, String city){
         this.WeatherData = Weather;
         this.name = name;
