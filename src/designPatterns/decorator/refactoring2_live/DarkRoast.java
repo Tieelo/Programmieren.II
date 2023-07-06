@@ -2,7 +2,7 @@ package designPatterns.decorator.refactoring2_live;
 
 public class DarkRoast extends Beverage {
 	public DarkRoast() {
-		description = "Hervorragende dunkle Röstung";
+		description = "Dark Roast";
 		price = 1.99;
 	}
 }
