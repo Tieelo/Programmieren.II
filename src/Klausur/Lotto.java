@@ -18,6 +18,7 @@ import java.util.Collections;
                 int zahl = random.nextInt(49) + 1;
 
                 // Überprüfe, ob diese Zahl bereits gezogen wurde
+                // eigentlich nicht notwendig, trotzdem nice to have
                 if (bereitsGezogen.contains(zahl)) {
                     continue;
                 }

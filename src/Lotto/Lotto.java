@@ -1,4 +1,4 @@
-package Generics.self.Joe;
+package Lotto;
 
 import java.util.HashSet;
 import java.util.Random;
